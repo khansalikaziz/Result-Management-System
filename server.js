@@ -8,9 +8,9 @@ const employeeRoute = require("./routes/employeeRoute");
 const studentRoute = require("./routes/studentRoute");
 const resultsRoute = require("./routes/resultsRoute");
 
-app.use("/api/employee/", employeeRoute);
-app.use("/api/student/", studentRoute);
-app.use("/api/results/", resultsRoute);
+app.use("https://delicate-sfogliatella-b1241d.netlify.app/api/employee/", employeeRoute);
+app.use("https://delicate-sfogliatella-b1241d.netlify.app/api/student/", studentRoute);
+app.use("https://delicate-sfogliatella-b1241d.netlify.app/api/results/", resultsRoute);
 const path = require("path");
 
 const port = process.env.PORT || 5000;
