@@ -17,11 +17,11 @@ const studentSchema = new mongoose.Schema({
     required: true,
   },
   phoneNumber: {
-    type: String,
+    type: Number,
     required: true,
   },
   class: {
-    type: Number,
+    type: String,
     required: true,
   },
   results: {

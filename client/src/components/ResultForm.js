@@ -50,7 +50,7 @@ function ResultForm() {
           </Col>
           <Col span={8}>
             <Form.Item label="Class" name="class">
-              <input type="number" />
+              <input type="text" />
             </Form.Item>
           </Col>
         </Row>

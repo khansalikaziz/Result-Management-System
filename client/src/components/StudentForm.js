@@ -65,12 +65,12 @@ function StudentForm({ student, type }) {
           </Col>
           <Col span={8}>
             <Form.Item label="Phone Number" name="phoneNumber">
-              <input type="text" />
+              <input type="number" />
             </Form.Item>
           </Col>
           <Col span={8}>
             <Form.Item label="Class" name="class">
-              <input type="number" />
+              <input type="text" />
             </Form.Item>
           </Col>
         </Row>
